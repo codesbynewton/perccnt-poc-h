@@ -1,15 +1,5 @@
-import { Text, View } from "react-native";
+import { Redirect } from "expo-router"
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text style={{fontFamily:"georgia", fontWeight:"bold", fontSize:20}}>Hello world </Text>
-    </View>
-  );
+  return <Redirect href="/components/login/LoginPage" />
 }

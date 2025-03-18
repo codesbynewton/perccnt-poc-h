@@ -1,0 +1,21 @@
+[
+    {
+      "id": "1",
+      "name": "ABC Equity Fund",
+      "invested": "₹50,000",
+      "returns": "+5%"
+    },
+    {
+      "id": "2",
+      "name": "XYZ Bond Fund",
+      "invested": "₹30,000",
+      "returns": "-2%"
+    },
+    {
+      "id": "3",
+      "name": "DEF Stock Fund",
+      "invested": "₹75,000",
+      "returns": "+10%"
+    }
+  ]
+  
