@@ -1,14 +1,10 @@
-// SnackbarContext.tsx
 import React, { createContext, useState, useContext, ReactNode } from 'react';
 import { Snackbar } from 'react-native-paper';
 import { View, Text, StyleSheet } from 'react-native';
 
-// Define a type for the context
 interface SnackbarContextType {
   enqueueSnackbar: (params: { message: string, variant: 'message' | 'error' }) => void;
 }
-
-// Create the context
 const SnackbarContext = createContext<SnackbarContextType | undefined>(undefined);
 
 // Snackbar Provider Component
@@ -30,7 +26,6 @@ export const SnackbarProvider: React.FC<{ children: ReactNode }> = ({ children }
   return (
     <SnackbarContext.Provider value={{ enqueueSnackbar: enqueueSnackbar }}>
       {children}
-      {/* Snackbar Component */}
       {message && (
         <Snackbar
           visible={visible}
