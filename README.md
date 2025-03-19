@@ -39,7 +39,6 @@ Since this app is a sample portfolio management app, the following could serve a
 - **Username**: `demo`
 - **Password**: `password`
 
-Ensure the login process is set up in the `/components/login/LoginPage` file (which could be a basic form or integrated with Firebase or another authentication service).
 
 ## Libraries Used
 
